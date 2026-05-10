@@ -1,0 +1,80 @@
+export const products = [
+    {
+        id: 1,
+        name: "Dried Mango",
+        category: "Fruits",
+        description: "Sweet mangos dried. A tropical paradise in every bite.",
+        fullDescription: "Our premium dried mangos are sourced from the finest tropical farms. Using our state-of-the-art freeze-drying process, we lock in 97% of the original nutrients, vibrant color, and intense sweetness without adding any sugar or preservatives.",
+        price: 450,
+        image: "/images/img-1.jpg",
+        stock: 50,
+        ingredients: ["100% Natural Mango"],
+        nutrition: { calories: 120, protein: "2g", carbs: "28g", fats: "0g", sodium: "0mg" },
+        features: ["25-Year Shelf Life", "No Added Sugar", "Gluten Free", "Vegan"]
+    },
+    {
+        id: 2,
+        name: "Guava Pulp",
+        category: "Fruits",
+        description: "A perfect nature's taste. Experience the real taste of Guavas.",
+        fullDescription: "Enjoy the authentic taste of ripe guavas anytime, anywhere. This freeze-dried guava pulp retains the exotic flavor and high Vitamin C content of fresh guavas, making it perfect for smoothies, baking, or rehydrating for a quick drink.",
+        price: 390,
+        image: "/images/img-2.jpg",
+        stock: 30,
+        ingredients: ["100% Natural Guava"],
+        nutrition: { calories: 90, protein: "1g", carbs: "22g", fats: "0.5g", sodium: "5mg" },
+        features: ["High Vitamin C", "No Preservatives", "Instant Rehydration"]
+    },
+    {
+        id: 3,
+        name: "Maa ki Daal",
+        category: "Meals",
+        description: "Home style cooked Daal with lots of love from moms",
+        fullDescription: "A comforting, ready-to-eat Indian classic. Slow-cooked black lentils and kidney beans simmered with aromatic spices, then freeze-dried to preserve the rich, creamy texture. Just add hot water and enjoy a home-cooked meal in minutes.",
+        price: 400,
+        image: "/images/img-3.jpg",
+        stock: 20,
+        ingredients: ["Black Lentils", "Kidney Beans", "Tomato", "Onion", "Garlic", "Ginger", "Spices", "Salt"],
+        nutrition: { calories: 210, protein: "12g", carbs: "35g", fats: "3g", sodium: "450mg" },
+        features: ["Ready in 5 Mins", "High Protein", "Authentic Taste"]
+    },
+    {
+        id: 4,
+        name: "Mixed Berries",
+        category: "Snacks",
+        description: "A blend of premium dried strawberries, blueberries, and raspberries.",
+        fullDescription: "An antioxidant powerhouse! This vibrant mix of strawberries, blueberries, and raspberries is freeze-dried at peak ripeness. Perfect for topping oatmeal, mixing into yogurt, or snacking straight out of the bag.",
+        price: 550,
+        image: "/images/img-1.jpg", 
+        stock: 100,
+        ingredients: ["Strawberries", "Blueberries", "Raspberries"],
+        nutrition: { calories: 100, protein: "1g", carbs: "24g", fats: "0g", sodium: "0mg" },
+        features: ["Antioxidant Rich", "No Added Sugar", "Perfect Snack"]
+    },
+    {
+        id: 5,
+        name: "Vegetable Soup Mix",
+        category: "Meals",
+        description: "Hearty and nutritious vegetable soup, ready in minutes.",
+        fullDescription: "A nourishing blend of freeze-dried garden vegetables including carrots, peas, corn, and green beans. Perfectly seasoned. Just add boiling water for a warming, healthy soup wherever you are.",
+        price: 250,
+        image: "/images/img-3.jpg",
+        stock: 0,
+        ingredients: ["Carrots", "Peas", "Corn", "Green Beans", "Vegetable Broth Powder", "Herbs"],
+        nutrition: { calories: 80, protein: "3g", carbs: "18g", fats: "0g", sodium: "380mg" },
+        features: ["Low Calorie", "Vegan", "Just Add Water"]
+    },
+    {
+        id: 6,
+        name: "Dried Pineapple",
+        category: "Fruits",
+        description: "Tangy and sweet dried pineapple rings.",
+        fullDescription: "Transport yourself to the tropics with our freeze-dried pineapple rings. Crisp, tangy, and naturally sweet, they are a fantastic healthy snack that retains the bromelain enzyme found in fresh pineapples.",
+        price: 420,
+        image: "/images/img-2.jpg",
+        stock: 45,
+        ingredients: ["100% Natural Pineapple"],
+        nutrition: { calories: 130, protein: "1g", carbs: "32g", fats: "0g", sodium: "2mg" },
+        features: ["Rich in Bromelain", "No Sulfites", "Crispy Texture"]
+    }
+];

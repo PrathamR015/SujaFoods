@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pdftotext -layout \"Freeze_Dried_Food_Functional_Requirements.pdf\" -)"
+    ]
+  }
+}
